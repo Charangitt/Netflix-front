@@ -1,0 +1,227 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.main {
+    background-image: url("assets/images/bg.jpg");
+    height: 70vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    position: relative;
+}
+body{
+    background-color: black;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.6;
+
+    position: absolute;
+    top: 0%;
+    background-color: black;
+}
+
+nav {
+    max-width: 70vw;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    height: 62px;
+}
+
+nav img,
+button {
+    position: relative;
+    z-index: 6;
+}
+
+.hero {
+    height:calc(100% - 62px);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 2;
+    gap: 25px;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.hero >:first-child{
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+}
+
+.hero >:nth-child(2){
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.hero >:nth-child(3){
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.line{
+    height: 6px;
+    background-color: rgb(31, 30, 30);
+}
+
+.btn{
+    background-color: rgb(31, 30, 30, 0.9);;
+    padding: 6px 10px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.233);
+    border-radius: 4px;
+}
+
+.btn-red{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 18px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+
+.btn-red-sm{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 8px;
+    font-weight: 200;
+    margin-left: 15px;
+}
+
+.main input{
+    padding: 9px 65px 10px 9px;
+;
+    border-radius: 3px;
+    background-color: rgb(31, 30, 30, 0.7);
+    font-size: 12px;
+    font-weight: 700;
+    border: 1px solid rgba(155, 152, 152, 0.3);
+            color: white;
+}
+
+.hero-buttons{
+display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 70vw;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.sec-img{
+    position: relative;
+}
+.sec-img img{
+    width: 30vw;
+    position: relative;
+    z-index: 20;
+}
+.sec-img video{
+    position: absolute;
+    top: 21%;
+    left: 13%;
+    width: 300px;
+
+}
+.sec-imgg video{
+    position: absolute;
+    top: 11%;
+    left: 20%;
+    width: 236px;
+}
+
+
+.first > div{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.first > div :first-child{
+    font-size: 48px;
+}
+
+.first > div :nth-child(2){
+    font-size: 24px;
+}
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+
+
+    font-weight: 900;
+}
+.faq{
+    background-color: black;
+    color: white    ;
+    padding:34px;
+}
+.faqbox{
+    transition: all 0.2s ease-out;
+    background-color: #2d2d2d;
+    display: flex;
+    font-size: 24px;
+    justify-content:space-between;
+    padding: 24px;
+    margin: 14px auto;
+    border-radius: 3px;
+    max-width: 75vw;
+    cursor: pointer;
+}
+.faqbox:hover{
+    background-color: rgb(56, 55, 55);
+}
+
+svg{
+    filter: invert(1);
+}
+
+footer{
+    color: white;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 80vw;
+    margin: auto;
+}
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
